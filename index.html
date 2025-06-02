@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raphel Efi Art | Charcoal Drawings</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   
+    <header class="header">
+        <div class="container">
+            <h1 class="logo" style="display: flex; align-items: center; gap: 0.75rem;">
+              <img src="logo.png" alt="Raphael Efi Art Logo" style="height: 72px; cursor: pointer; vertical-align: middle;" id="mainLogo"> 
+              <span>Raphael Efi Art</span>
+            </h1>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h2 class="hero-title">The Beauty of Pencil </h2>
+            <p class="hero-subtitle">Exploring the world through pencil strokes</p>
+            <a href="#gallery" class="btn hero-btn">View Gallery</a>
+            <button class="btn order-btn">Order a Piece</button>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery-section section-spacing">
+        <div class="container">
+            <h2 class="section-title">My Drawings</h2>
+            <div class="gallery-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="portrait">Portraits</button>
+                <button class="filter-btn" data-filter="pencil-album">Pencil Album</button>
+            </div>
+            <div class="gallery-grid"></div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section section-spacing">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">About the Artist</h2>
+                    <p><strong>Raphael Ephi Art | Hyperrealistic Visionary</strong></p>
+                    <p>Renowned for breathtaking, hyper-realistic masterpieces that transcend reality. With the Masterpiece Project, I push the boundaries of art, crafting intricate, emotionally charged works that captivate and inspire. My artistry weaves stories of human depth, vulnerability, and resilience, leaving a lasting impact on all who experience it.</p>
+                    <p>Through meticulous detail and unwavering dedication, I bring forth art that not only showcases technical prowess but also touches the soul. Join me on this creative journey, where the ordinary becomes extraordinary, and the power of art transforms perceptions.</p>
+                </div>
+                <div class="about-image">
+                    <img src="Artist.JPG" alt="Artist at work" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section section-spacing">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p><i class="fas fa-envelope contact-icon"></i> <a href="mailto:raphelephiart@gmail.com">raphelephiart@gmail.com</a></p>
+                    <p><i class="fas fa-phone contact-icon"></i> 0530930490</p>
+                    <p><i class="fas fa-map-marker-alt contact-icon"></i> Accra, Ghana</p>
+                    <div class="social-links">
+                        <a href="https://instagram.com/raphelephiart" class="social-link" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://facebook.com/raphelephiart" class="social-link" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/raphelephiart" class="social-link" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://pinterest.com/raphelephiart" class="social-link" target="_blank"><i class="fab fa-pinterest-p"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form" action="mailto:raphelephiart@gmail.com" method="POST" enctype="text/plain">
+                    <input type="text" placeholder="Your Name" name="name" required>
+                    <input type="email" placeholder="Your Email" name="email" required>
+                    <textarea placeholder="Your Message" name="message" required></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Delivery Section -->
+    <section class="delivery-section section-spacing" style="background: #f8f4e8;">
+      <div class="container">
+        <h2 class="section-title">Delivery Available</h2>
+        <h3 style="text-align:center; font-size:1.1rem; color:#4a4a4a;">I also offer delivery for your convenience.</p>
+        <div style="display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap; margin-top: 2rem; align-items: flex-start;">
+          <div style="flex:1; min-width:220px; max-width:340px; text-align:center;">
+            <img src="delivary.jpg" alt="From work to processing to delivery" style="width:100%; max-width:320px; border-radius: 10px; box-shadow: 0 4px 16px rgba(0,0,0,0.10); margin-bottom:1rem;">
+          </div>
+          <div style="display: flex; flex-direction: row; gap: 2rem; flex-wrap: wrap; justify-content: center; align-items: flex-start;">
+            <img src="delivered 1.jpg" alt="Delivered artwork 1" style="max-width: 220px; border-radius: 10px; box-shadow: 0 4px 16px rgba(0,0,0,0.10);">
+            <img src="delivered 2.jpg" alt="Delivered artwork 2" style="max-width: 220px; border-radius: 10px; box-shadow: 0 4px 16px rgba(0,0,0,0.10);">
+            <img src="delivered 3.jpg" alt="Delivered artwork 3" style="max-width: 220px; border-radius: 10px; box-shadow: 0 4px 16px rgba(0,0,0,0.10);">
+          </div>
+        </div>
+        <p style="text-align:center; margin-top:1.5rem; color:#8b5a2b; font-weight:600; font-size:1.15rem;">We deliver finished artworks safely to your doorstep!</p>
+      </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="current-year"></span> Raphael Efi Art . All rights reserved.</p>
+        </div>
+    </footer>
+
+    <div class="modal">
+        <div class="modal-content">
+            <span class="close-btn"><i class="fas fa-times"></i></span>
+            <div class="modal-body">
+                <img id="modalImage" src="" alt="" class="modal-image">
+                <div class="modal-text">
+                    <h3 id="modalTitle"></h3>
+                    <p id="modalDescription"></p>
+                    <div class="artwork-details">
+                        <div class="detail-item">
+                            <i class="fas fa-ruler detail-icon"></i>
+                            <span id="modalSize"></span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-calendar-alt detail-icon"></i>
+                            <span id="modalYear"></span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-pencil-alt detail-icon"></i>
+                            <span id="modalMaterials">Graphite on archival paper</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal order-modal">
+        <div class="modal-content">
+            <span class="close-btn order-close-btn"><i class="fas fa-times"></i></span>
+            <div class="modal-body">
+                <form class="order-form" autocomplete="off">
+                    <h3 class="modal-title">Order a Custom Artwork</h3>
+                    <label for="orderTitle">Artwork Title</label>
+                    <input type="text" id="orderTitle" name="orderTitle" required>
+                    <label for="orderDescription">Description</label>
+                    <textarea id="orderDescription" name="orderDescription" required></textarea>
+                    <label for="orderPrice">Price (USD)</label>
+                    <input type="number" id="orderPrice" name="orderPrice" min="1" required>
+                    <button type="submit" class="btn buy-now-btn">Buy Now</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Add logo modal at the end of body -->
+    <div class="modal" id="logoModal">
+      <div class="modal-content" style="max-width: 400px; margin: auto; background: transparent; box-shadow: none;">
+        <span class="close-btn" id="closeLogoModal" style="top: 0.5rem; right: 0.5rem;"><i class="fas fa-times"></i></span>
+        <img src="logo.png" alt="Raphael Efi Art Logo Large" style="width: 100%; display: block; border-radius: 12px; background: #fff; padding: 1rem;">
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
